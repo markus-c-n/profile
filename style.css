@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Didact+Gothic&family=Public+Sans&display=swap');
+
+
+body {
+  color:rgb(30, 30, 30);
+  font-family: Archivo;
+  font-weight: 100;
+  background-color: #b7c0d8;
+  background-image: linear-gradient(0deg, #b7c0d8 0%, #b3e8bc 100%);
+}
+
+h1, h2 {
+  color:rgb(30, 30, 30);
+  font-family: Didact Gothic;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 24px auto;
+  width:800px;
+}
+
+
+
+.card {
+  text-align: center;
+  background: white;
+  margin: 24px;
+  border: 1px solid rgb(229, 224, 224);
+  padding: 24;
+  border-radius: 4px;
+}
+
+#btn-color-darkblue {
+  border-radius: 8px;
+  padding: 8px;
+  background-color: 03045e;
+  color: #B5FFFC;
+  border:solid;
+  display: inline-block;
+  margin: 8px;
+}
+
+#btn-color-darkblue:hover {
+  background-color: #B5FFFC;
+  color: 03045e;
+  border:solid;
+}
+
+#img-circle {
+  border-radius: 50%;
+  width:240px;
+  border: solid 4px;
+  border-color: 03045e;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 24px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  #img-circle {
+    width: 160px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  #img-circle {
+    width: 120px;
+  }
+}
